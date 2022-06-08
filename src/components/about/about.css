@@ -50,10 +50,15 @@
   cursor: default;
 }
 
+.about__card:hover .about__icon {
+  color: white;
+}
+
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4 rem;
     margin-bottom: 1rem;
+    transition: var(--transition);
 }
 
 .about__card h5 {
@@ -62,12 +67,12 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
-.about__content  p {
+.about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */

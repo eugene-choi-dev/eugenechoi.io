@@ -13,9 +13,9 @@
 :root {
     --color-bg: #EDF7F6;
     --color-primary: #EE6352;
-    --color-primary-variant: #deb2ab;
+    --color-primary-variant: #dc978c;
     --color-white: #fff;
-    --color-light: rgba(6, 6, 6, 0.6);
+    --color-dark: rgba(6, 6, 6, 0.6);
 
     --transition: all 400ms ease;
 
@@ -35,9 +35,8 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-light);
+    color: var(--color-dark);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* =========== GENERAL STYLES =========== */
@@ -65,16 +64,16 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 section > h2 {
-    color: var(--color-light);
+    color: var(--color-dark);
     margin-bottom: 7rem;
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 a {

@@ -7,7 +7,7 @@
 .service {
     background: var(--color-bg);
     border-radius: 2rem 2rem 0 0;
-    border: 1px solid var(--color-light);
+    border: 1px solid var(--color-dark);
     height: fit-content;
     transition: var(--transition);
 }
