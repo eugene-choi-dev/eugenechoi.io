@@ -4,6 +4,7 @@ import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import Resume from './Resume'
 
 const About = () => {
   return (
@@ -45,9 +46,11 @@ const About = () => {
             repellat molestias quos totam.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <Resume />
+
+          {/* <a href="#contact" className="btn btn-primary">
             Let's Talk
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
