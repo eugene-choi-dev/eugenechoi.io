@@ -51,23 +51,29 @@
 }
 
 .about__card:hover .about__icon {
-  color: white;
+  color: var(--color-bg);
+}
+
+.about__card:hover a {
+  color: var(--color-bg);
 }
 
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4 rem;
-    margin-bottom: 1rem;
     transition: var(--transition);
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .about__card h5 {
+    margin-top: 0.5rem;
     font-size: 0.96rem;
+    transition: var(--transition);
 }
 
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-dark);
+.about__card:hover h5 {
+  color: var(--color-bg);
 }
 
 .about__content p {
