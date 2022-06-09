@@ -42,10 +42,16 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
-            voluptatem eius dolorem maiores nihil ducimus at rem ullam
-            reprehenderit quidem quia deserunt, molestiae, eligendi amet
-            repellat molestias quos totam.
+            Hi there. I'm a full stack web developer transitioning from a
+            background in real estate. Understanding and representing clients'
+            needs while mediating complicated transactions has advanced my
+            professional communication skills. Now I'm following my passion and
+            seeking exciting projects in web development!
+          </p>
+          <p>
+            When I'm not coding you can find me splitting firewood in the
+            wilderness, building computers with too many colorful lights, and
+            being a good sport when I beat my friends at video games.
           </p>
 
           <Resume />
