@@ -16,6 +16,13 @@ const data = [
   },
   {
     id: 1,
+    image: grubdash,
+    title: `GrubDash`,
+    github: "https://github.com/eugene-choi-dev/thinkful-grubdash-project",
+    demo: "",
+  },
+  {
+    id: 1,
     image: flashcard,
     title: `Flashcard-o-matic`,
     github: "https://github.com/eugene-choi-dev/flashcard-o-matic-ver2",
@@ -23,9 +30,9 @@ const data = [
   },
   {
     id: 1,
-    image: grubdash,
-    title: `GrubDash`,
-    github: "https://github.com/eugene-choi-dev/thinkful-grubdash-project",
+    image: decoder,
+    title: `Decoder Ring`,
+    github: "https://github.com/eugene-choi-dev/decoder-ring",
     demo: "",
   },
   {
@@ -34,13 +41,6 @@ const data = [
     title: `Focus Timer`,
     github: "https://github.com/eugene-choi-dev/focus-timer",
     demo: "https://focus-timer-wow.herokuapp.com/",
-  },
-  {
-    id: 1,
-    image: decoder,
-    title: `Decoder Ring`,
-    github: "https://github.com/eugene-choi-dev/decoder-ring",
-    demo: "",
   },
 ];
 
