@@ -1,39 +1,43 @@
 import React from "react";
 import "./portfolio.css";
-import githublogo from "../../assets/github-logo.png";
+import restaurant from "../../assets/restaurant.png";
+import flashcard from "../../assets/flashcard.png";
+import grubdash from "../../assets/grubdash.png";
+import focus from "../../assets/focus.png";
+import decoder from "../../assets/decoder.png";
 
 const data = [
   {
     id: 1,
-    image: githublogo,
+    image: restaurant,
     title: `Restaurant Reservation`,
     github: "https://github.com/eugene-choi-dev/restaurant-reservation",
     demo: "",
   },
   {
     id: 1,
-    image: githublogo,
+    image: flashcard,
     title: `Flashcard-o-matic`,
     github: "https://github.com/eugene-choi-dev/flashcard-o-matic-ver2",
     demo: "",
   },
   {
     id: 1,
-    image: githublogo,
+    image: grubdash,
     title: `GrubDash`,
     github: "https://github.com/eugene-choi-dev/thinkful-grubdash-project",
     demo: "",
   },
   {
     id: 1,
-    image: githublogo,
+    image: focus,
     title: `Focus Timer`,
     github: "https://github.com/eugene-choi-dev/focus-timer",
     demo: "https://focus-timer-wow.herokuapp.com/",
   },
   {
     id: 1,
-    image: githublogo,
+    image: decoder,
     title: `Decoder Ring`,
     github: "https://github.com/eugene-choi-dev/decoder-ring",
     demo: "",
