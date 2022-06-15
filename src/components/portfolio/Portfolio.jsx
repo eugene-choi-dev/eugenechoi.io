@@ -1,54 +1,42 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import githublogo from "../../assets/github-logo.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: `Title for the first portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    image: githublogo,
+    title: `Restaurant Reservation`,
+    github: "https://github.com/eugene-choi-dev/restaurant-reservation",
+    demo: "",
   },
   {
     id: 1,
-    image: IMG2,
-    title: `Title for the second portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    image: githublogo,
+    title: `Flashcard-o-matic`,
+    github: "https://github.com/eugene-choi-dev/flashcard-o-matic-ver2",
+    demo: "",
   },
   {
     id: 1,
-    image: IMG3,
-    title: `Title for the third portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    image: githublogo,
+    title: `GrubDash`,
+    github: "https://github.com/eugene-choi-dev/thinkful-grubdash-project",
+    demo: "",
   },
   {
     id: 1,
-    image: IMG4,
-    title: `Title for the fourth portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress",
+    image: githublogo,
+    title: `Focus Timer`,
+    github: "https://github.com/eugene-choi-dev/focus-timer",
+    demo: "https://focus-timer-wow.herokuapp.com/",
   },
   {
     id: 1,
-    image: IMG5,
-    title: `Title for the fifth portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
-  {
-    id: 1,
-    image: IMG6,
-    title: `Title for the sixth portfolio item`,
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    image: githublogo,
+    title: `Decoder Ring`,
+    github: "https://github.com/eugene-choi-dev/decoder-ring",
+    demo: "",
   },
 ];
 
